@@ -1,0 +1,5 @@
+[flake8]
+ignore = E501, W503, E203, E902, C812, PT009, F401, E800, T003, E731
+max-line-length = 100
+exclude = .*, __pycache__
+filename = *.py

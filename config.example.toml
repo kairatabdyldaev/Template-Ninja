@@ -1,0 +1,16 @@
+# Скопируйте в config.toml. config.toml в git не попадает.
+
+debug = true
+secret_key = "dev-only-change-me"
+allowed_hosts = ["localhost", "127.0.0.1"]
+time_zone = "Asia/Bishkek"
+
+[database]
+name = "template_ninja"
+user = "template_ninja"
+password = "template_ninja"
+host = "127.0.0.1"
+port = 5432
+
+[mail]
+backend = "django.core.mail.backends.console.EmailBackend"
